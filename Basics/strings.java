@@ -68,10 +68,10 @@ class strFunc {
     System.out.println(str1.equals(str2)); // true
     System.out.println(str1.equalsIgnoreCase(str2)); // true
 
-    // replace a word in a string 
+    // replace a word in a string
     String string11 = " This is Aditya";
-    System.out.println(string11.replace("Aditya","aditya"));
-    // to check something is present in the string. 
+    System.out.println(string11.replace("Aditya", "aditya"));
+    // to check something is present in the string.
     System.out.println(string11.contains("Aditya"));
 
   }
