@@ -35,7 +35,8 @@ class dataTypes {
     
 /* 
 * Type conversion can be implicit or explicit : 
-* -
+-- Expiclit conversion can also lead to loss of data 
+* 
 */
 
 // Int ->double 
