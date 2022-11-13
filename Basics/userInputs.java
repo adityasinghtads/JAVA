@@ -31,6 +31,7 @@ class userInputs {
 
     Scanner newScan = new Scanner(System.in);
     int number = newScan.nextInt();
+    newScan.nextLine(); // Cleans up extra buffer input buffer 
     System.out.println(number);
     newScan.close();
 
@@ -41,13 +42,25 @@ class userInputs {
 
  Scanner adiScan = new Scanner(System.in);
  double newDouble = adiScan.nextDouble();
+ double newDouble1 = Double.parseDouble(adiScan.nextLine());
  System.out.println(newDouble);
+ System.out.println(newDouble1);
  adiScan.close();
 
+
  Scanner adi2 = new Scanner(System.in);
- Float newFloat =  adi2.nextFloat();
+ //Float newFloat =  adi2.nextFloat();
+ int newFloat = Integer.parseInt(adi2.nextLine());
  System.out.println(newFloat);
  adi2.close();
+
+
+ /*
+  * We can always take input from nextLine() Then later convert to int 
+  * cam be done with 
+  **int age = Integer.parseInt(scanner.nextLine());
+  */
+
 
 
   }
