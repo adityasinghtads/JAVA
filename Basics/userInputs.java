@@ -58,7 +58,7 @@ class userInputs {
  /*
   * We can always take input from nextLine() Then later convert to int 
   * cam be done with 
-  **int age = Integer.parseInt(scanner.nextLine());
+  *int age = Integer.parseInt(scanner.nextLine());
   */
 
 
