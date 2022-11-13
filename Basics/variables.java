@@ -1,7 +1,3 @@
-import javax.sound.midi.SysexMessage;
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
 public class variables {
 
   static int age1 = 99;
