@@ -14,8 +14,7 @@ public class conditionalStatements {
     String operation = scanner.nextLine();
 
     if (operation.equals("sum"))  {
-
-      System.out.printf("%d + %d = %d",  num1,num2, num1 + num2);
+      System.out.printf("%d + %d = %d",  num1 , num2, num1 + num2);
     } else  {
       System.out.println("This operation is not supported");
     }
