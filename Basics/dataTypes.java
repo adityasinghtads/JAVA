@@ -30,6 +30,15 @@ class dataTypes {
     //characters 
     char copyrightsymbol = '\u00A9';
 
+    System.out.println(isWorkday);
+    System.out.println(isWeekend);
+    System.out.println(aFloat);
+    System.out.println(aDouble);
+    System.out.println(aLargeNumber);
+    System.out.println(anInteger);
+    System.out.println(aSmallNumber);
+    System.out.println(aSingleByte);
+
     System.out.println("This is the copyright symbol " + copyrightsymbol);
   
     
