@@ -1,4 +1,5 @@
 import java.lang.reflect.Array;
+import java.security.Key;
 import java.util.Arrays;
 import java.util.Vector;
 
@@ -44,6 +45,34 @@ public class arraysInJava {
     Arrays.sort(newVowels, startingIndex, endingIndex);
     System.out.println(newVowels);
     System.out.println(Arrays.toString(newVowels));
+
+    // to search into an array
+    // this search only works on sorted arays
+    char key = 'o';
+    int foundItemindex = Arrays.binarySearch(vowels, key);
+    System.out.println(Arrays.toString(vowels));
+    System.out.println(foundItemindex);
+    int position =  foundItemindex+1;
+    System.out.printf("position is : ",position);
+
+    // we can also sort in an array by giving both starting and ending point 
+    int starting = 1;
+    int ending = 4;
+    int found = Arrays.binarySearch(vowels, starting, ending, key);
+    System.out.println(found);
+
+    // if the search fails in binary search of sorted array 
+    // output is negative output 
+    int starting1 = 1;
+    int ending2 = 2;
+    int found1 = Arrays.binarySearch(vowels, starting1, ending2, key);
+    System.out.println(found1);
+
+    // to fill entire array using array.fill methods 
+
+    char vowels2[] = {'a','b','c','d','e'};
+    Arrays.fill(vowels2, 'x');
+    System.out.println(Arrays.toString(vowels2));
 
   }
 }
