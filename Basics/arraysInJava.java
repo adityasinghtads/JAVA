@@ -3,6 +3,8 @@ import java.security.Key;
 import java.util.Arrays;
 import java.util.Vector;
 
+import javax.swing.JSpinner.NumberEditor;
+
 public class arraysInJava {
   public static void main(String[] args) {
     // declaring a array
@@ -74,20 +76,31 @@ public class arraysInJava {
     System.out.println(Arrays.toString(vowels2));
 
     // Copy of arrays,
-    int numbers[] = {1,2,3,4,5};
-    int numbers1[] = {1,2,3,4,5};
+    int numbers[] = { 1, 2, 3, 4, 5 };
+    int numbers1[] = { 1, 2, 3, 4, 5 };
     int copyOfNumbers[] = numbers;
-    //int copyOfNumbers1[] = numbers1;
+    // int copyOfNumbers1[] = numbers1;
 
     Arrays.fill(numbers, 0);
-    // Arrays in java are refrence types - it dont copy the array it points to same address. 
+    // Arrays in java are refrence types - it dont copy the array it points to same
+    // address.
     System.out.println(Arrays.toString(numbers));
     System.out.println(Arrays.toString(copyOfNumbers));
 
-    // to copy properly without making refrence. 
+    // to copy properly without making refrence.
     int copyOfNumbers1[] = Arrays.copyOf(numbers1, numbers1.length);
     Arrays.fill(numbers1, 9);
     System.out.println(Arrays.toString(numbers1));
     System.out.println(Arrays.toString(copyOfNumbers1));
+
+    // to check/compares the arrays.
+
+    int n[] = { '1', '2', '3', '4', '5' };
+    int copyOfn[] = Arrays.copyOf(n, n.length);
+
+    System.out.println(n == copyOfn); // this is false
+    // to comapre we need to write.
+    System.out.println(Arrays.equals(n, copyOfn)); // this is true
+
   }
 }
