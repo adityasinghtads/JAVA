@@ -52,27 +52,42 @@ public class arraysInJava {
     int foundItemindex = Arrays.binarySearch(vowels, key);
     System.out.println(Arrays.toString(vowels));
     System.out.println(foundItemindex);
-    int position =  foundItemindex+1;
-    System.out.printf("position is : ",position);
+    int position = foundItemindex + 1;
+    System.out.printf("position is : ", position);
 
-    // we can also sort in an array by giving both starting and ending point 
+    // we can also sort in an array by giving both starting and ending point
     int starting = 1;
     int ending = 4;
     int found = Arrays.binarySearch(vowels, starting, ending, key);
     System.out.println(found);
 
-    // if the search fails in binary search of sorted array 
-    // output is negative output 
+    // if the search fails in binary search of sorted array
+    // output is negative output
     int starting1 = 1;
     int ending2 = 2;
     int found1 = Arrays.binarySearch(vowels, starting1, ending2, key);
     System.out.println(found1);
 
-    // to fill entire array using array.fill methods 
-
-    char vowels2[] = {'a','b','c','d','e'};
+    // to fill entire array using array.fill methods
+    char vowels2[] = { 'a', 'b', 'c', 'd', 'e' };
     Arrays.fill(vowels2, 'x');
     System.out.println(Arrays.toString(vowels2));
 
+    // Copy of arrays,
+    int numbers[] = {1,2,3,4,5};
+    int numbers1[] = {1,2,3,4,5};
+    int copyOfNumbers[] = numbers;
+    //int copyOfNumbers1[] = numbers1;
+
+    Arrays.fill(numbers, 0);
+    // Arrays in java are refrence types - it dont copy the array it points to same address. 
+    System.out.println(Arrays.toString(numbers));
+    System.out.println(Arrays.toString(copyOfNumbers));
+
+    // to copy properly without making refrence. 
+    int copyOfNumbers1[] = Arrays.copyOf(numbers1, numbers1.length);
+    Arrays.fill(numbers1, 9);
+    System.out.println(Arrays.toString(numbers1));
+    System.out.println(Arrays.toString(copyOfNumbers1));
   }
 }
