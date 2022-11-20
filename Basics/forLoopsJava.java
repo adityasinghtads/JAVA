@@ -50,7 +50,6 @@ public class forLoopsJava {
     }
 
     // Using For loop in array to print or use the array functions in loop
-
     int yup[] = { 2, 3, 4, 5, 6, 6 };
     for (int yupe : yup) {
       System.out.println(yupe);
