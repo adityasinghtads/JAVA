@@ -5,6 +5,7 @@ class userInputs {
   static void aditya() {
     System.out.println("Hi this is tads");
   }
+  
 
   public static void main(String[] args) {
     // Opening the scanner
