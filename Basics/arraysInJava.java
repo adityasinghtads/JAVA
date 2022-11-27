@@ -102,8 +102,5 @@ public class arraysInJava {
     // to comapre we need to write.
     System.out.println(Arrays.equals(n, copyOfn)); // this is true
 
-    
   }
 }
-
-

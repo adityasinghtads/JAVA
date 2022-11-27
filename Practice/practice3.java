@@ -47,7 +47,7 @@ public class practice3 {
     char tcs[] = { 't', 'c', 's' };
     int start = 1;
     int end = 2;
-    char Key ='c'; 
+    char Key = 'c';
     int ans = Arrays.binarySearch(wipro, start, end, Key);
     System.out.println(ans);
 
