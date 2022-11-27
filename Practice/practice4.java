@@ -36,7 +36,6 @@ public class practice4 {
     BigInteger  sum = hum.subtract(hum1);
     System.out.println(sum);
 
-
   }
 
 
