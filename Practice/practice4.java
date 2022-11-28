@@ -27,16 +27,32 @@ public class practice4 {
 
     System.out.println(Math.pow(2, 4));
     System.out.println(Math.pow(2, 8));
-    System.out.println(256/2);
+    System.out.println(256 / 2);
 
-    // Used in case when we have massive numbers. 
+    // Used in case when we have massive numbers.
 
     BigInteger hum = new BigInteger("9999999999999999999999999999999");
     BigInteger hum1 = new BigInteger("8888888888888888888888888888888");
-    BigInteger  sum = hum.subtract(hum1);
+    BigInteger sum = hum.subtract(hum1);
     System.out.println(sum);
 
   }
 
+}
+
+class strings{
+   public static void main(String[] args) {
+    strs();
+  }
+
+  static void strs(){
+    System.out.println("This is strings class ");
+    String myString = "I am Aditya Singh";
+    System.out.println(myString);
+
+    // Other wayof declaring string 
+    String str1 = new String("Adita Singh");
+    System.out.println(myString.equals(str1));
+  }
 
 }
