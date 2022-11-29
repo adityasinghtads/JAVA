@@ -8,6 +8,11 @@ import javax.swing.JSpinner.NumberEditor;
 public class arraysInJava {
   public static void main(String[] args) {
     // declaring a array
+    arryOfString();
+    //arrysInJava();
+  }
+
+  static void arrysInJava() {
     char vowels[] = new char[5];
 
     // inserting in array
@@ -101,6 +106,25 @@ public class arraysInJava {
     System.out.println(n == copyOfn); // this is false
     // to comapre we need to write.
     System.out.println(Arrays.equals(n, copyOfn)); // this is true
-
   }
+
+  /*
+   * Array of strings in java and ots operations.
+   */
+
+  static void arryOfString() {
+    //declaring a arry of string - differnt ways 
+    String[] my1 = new String[]{"Aditya","dhanraj"};
+    String[] my2 = {"DHanraj", "Singh"};
+    String[] my3 = new String[1];
+    my3[0] = "Adi";
+
+    System.out.println(my1);
+    System.out.println(my2);
+    // Above mentioned wont work as it throes Java out of exception error 
+
+    for (int n = 0; n <my1.length; n++){
+      System.out.println(my1[n]);
+    }
+  } 
 }
