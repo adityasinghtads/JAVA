@@ -1,12 +1,16 @@
+import java.net.SocketImpl;
 import java.net.SocketTimeoutException;
 import java.text.BreakIterator;
 import java.util.Scanner;
 
+import javax.lang.model.element.NestingKind;
+import javax.swing.JList.DropLocation;
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
 import javax.xml.transform.Source;
 
 public class practice5 {
   public static void main(String[] args) {
-    //strs();
+    // strs();
     userInputs();
   }
 
@@ -35,31 +39,50 @@ public class practice5 {
 
   }
 
-  static void userInputs(){
+  static void userInputs() {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Pls enter the number");
     int number = scanner.nextInt();
     scanner.nextLine();
     System.out.println(number);
 
-    switch(number){
+    switch (number) {
       case 1:
         System.out.println("The number is 1");
         break;
-      
+
       case 2:
         System.out.println("The number is 2");
         break;
-      
+
       case 3:
         System.out.println("The number is 3");
         break;
       default:
         System.out.println("The number is above 3");
     }
-    scanner.close();
-      
+    scanner.nextLine();
+   // scanner.close();
 
+    // Scanner scan = new Scanner(System.in);
+    // String str = " Pls enter your string";
+    // System.out.println(str);
+    // String wipro = scan.nextLine();
+    // System.out.printf("Show wipro %s",wipro);
+    // scan.close();
+
+    Scanner newScan = new Scanner(System.in);
+    String srtt = newScan.nextLine();
+    System.out.println(srtt);
+    newScan.close();
+  }
+
+
+  static void loops(){
+    for (int n =1 ; n<=10 ; n++){
+      System.out.println(n);
+    }
+    for(int n=2; n<)
   }
 
 }
