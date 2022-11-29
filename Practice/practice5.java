@@ -14,9 +14,17 @@ import javax.xml.transform.Source;
 public class practice5 {
   public static void main(String[] args) {
     // strs();
-    //userInputs();
-    //arrys();
-    loopsJava();
+    // userInputs();
+    // arrys();
+    // loopsJava();
+    love();
+  }
+
+  static void love() {
+    Integer arr[] = new Integer[3];
+    for (Integer i : arr) {
+      System.out.println(i);
+    }
   }
 
   static void strs() {
@@ -99,87 +107,95 @@ public class practice5 {
     vowel[2] = 'i';
     vowel[3] = 'o';
     vowel[4] = 'u';
-    //to print the array
+    // to print the array
     System.out.println(vowel);
     System.out.println(Arrays.toString(vowel));
-    //we can update the arrays 
+    // we can update the arrays
     vowel[2] = 'b';
     System.out.println(vowel);
     System.out.println(Arrays.toString(vowel));
 
-    //length of string 
+    // length of string
     int len = 0;
     len = vowel.length;
-    System.out.println(len); 
+    System.out.println(len);
 
-    // declaring and defining the array in one line 
-    char me1[] = {'e','o','e'};
-    
-    //arrys of string in java 
-    String[] arryOfString = {"One", "two", "three"};
-    for (int n =0; n<arryOfString.length; n++){
+    // declaring and defining the array in one line
+    char me1[] = { 'e', 'o', 'e' };
+
+    // arrys of string in java
+    String[] arryOfString = { "One", "two", "three" };
+    String[] up = new String[3];
+    for (String str : up) {
+      System.out.println(str);
+    }
+    for (int n = 0; n < arryOfString.length; n++) {
       System.out.println(arryOfString[n]);
     }
 
-    // to display an error we use arrys.tostring method. 
+    // to display an error we use arrys.tostring method.
     // can we use for array string ?\
 
     System.out.println(Arrays.toString(arryOfString));
 
-    // Sorting an array 
-    char newArr[] = {'a','z','b'};
+    // Sorting an array
+    char newArr[] = { 'a', 'z', 'b' };
     Arrays.sort(newArr);
     System.out.println(Arrays.toString(newArr));
     System.out.println(newArr);
 
-    //can also sort in given range by providing the index 
-    //this sorting in exclusive 
+    // can also sort in given range by providing the index
+    // this sorting in exclusive
 
-    // Searching in an array on works in sorted arrays. 
-    char newArr1[] = {'a','z','x','e','b'};
+    // Searching in an array on works in sorted arrays.
+    char newArr1[] = { 'a', 'z', 'x', 'e', 'b' };
     Arrays.sort(newArr1);
-    char key =  'z';
-    int foundat = Arrays.binarySearch(newArr1,key);
+    char key = 'z';
+    int foundat = Arrays.binarySearch(newArr1, key);
     System.out.println(foundat);
-    System.out.println(foundat+1);
+    System.out.println(foundat + 1);
 
-    //If search fails the result is a negative number which will indicate the search failed. 
+    // If search fails the result is a negative number which will indicate the
+    // search failed.
 
-    // fill method 
-    int num[] = {1,2,3,4,5,6,};
-    Arrays.fill(num,2);
+    // fill method
+    int num[] = { 1, 2, 3, 4, 5, 6, };
+    Arrays.fill(num, 2);
     System.out.println(Arrays.toString(num));
 
-    //comapring 2 arrays 
-    int n[] = {1,2,3,4};
+    // comapring 2 arrays
+    int n[] = { 1, 2, 3, 4 };
     int n1[] = Arrays.copyOf(n, n.length);
     System.out.println(Arrays.equals(n, n1));
 
   }
 
-  static void loopsJava(){
+  static void loopsJava() {
     System.out.println("Loops in Java");
-    for(int p=0;p<10;p++){
+    for (int p = 0; p < 10; p++) {
       System.out.println(p);
     }
-    //looping an array 
-    int nu[] = {1,2,3,4,5,6,7,8,8};
-    for(int n=0; n<nu.length; n++){
+    // looping an array
+    int nu[] = { 1, 2, 3, 4, 5, 6, 7, 8, 8 };
+    for (int n = 0; n < nu.length; n++) {
       System.out.println(nu[n]);
     }
 
-    //nested loops 
-    for (int n=1; n<=10; n++){
-      for(int p=1;p<=10;p++){
-        System.out.printf("%d x%d = %d \n",n,p,n*p);
+    // nested loops
+    for (int n = 1; n <= 10; n++) {
+      for (int p = 1; p <= 10; p++) {
+        System.out.printf("%d x%d = %d \n", n, p, n * p);
       }
     }
 
-    //using for loop to print or use array functions 
-    int hi[] = {1,2,3,4,5};
-    for(int hello : hi){
+    // using for loop to print or use array functions
+    int hi[] = { 1, 2, 3, 4, 5 };
+    for (int hello : hi) {
       System.out.println(hello);
     }
+
+    // while and do while loop.
+
   }
 
 }
