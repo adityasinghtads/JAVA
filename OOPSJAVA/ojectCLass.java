@@ -14,7 +14,6 @@ class oopsJava {
 
   }
 }
-
 /*
  * Main outside the class
  */

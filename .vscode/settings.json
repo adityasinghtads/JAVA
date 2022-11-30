@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "src",
+        "Practice",
         "Basics",
-        "Practice"
+        "OOPSJAVA"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [

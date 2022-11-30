@@ -1,0 +1,35 @@
+_ OOPS - Object oriented programing: 
+- Simula - First oop language 
+-- Smalltalk -- First truly oop language. 
+
+oops means a methodology to design a program using classes objects etc. 
+⁡⁣⁣⁢Topics to cover 
+⁡⁡-- Object 
+-- Class 
+-- Inheritance 
+-- Polymorphism 
+-- Abstraction 
+-- Encapsulation. 
+
+⁡⁣⁣⁢// Some other terms 
+⁡-- Coupling 
+-- Cohesion 
+-- Association 
+-- Aggregation 
+-- Composition.
+
+
+⁡⁣⁢⁣Object is instance of a class. 
+Class is collection of objects. 
+-- Class doesnt consume any space.⁡ 
+
+
+⁡⁣⁣⁢************* Inheritance ***************
+⁡
+
+A variable which is created inside the class but outside the method is known as an instance variable. Instance variable doesn't get memory at compile time. It gets memory at runtime when an object or instance is created. That is why it is known as an instance variable.
+
+
+
+
+
