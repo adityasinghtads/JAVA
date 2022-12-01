@@ -96,27 +96,107 @@ class sum {
   }
 }
 
-
-class mul{
+class mul {
   int first = 0;
-  int second =0;
+  int second = 0;
 }
 
-class result{
+class result {
   public static void main(String[] args) {
     mul m1 = new mul();
-    m1.first =10;
-    m1.second=1;
+    m1.first = 10;
+    m1.second = 1;
     int multi = 0;
     multi = m1.first * m1.second;
     System.out.println(multi);
 
-
     mul m2 = new mul();
-    m2.first =2;
+    m2.first = 2;
     m2.second = 2;
     int pli = 0;
-    pli =m2.first * m2.second;
+    pli = m2.first * m2.second;
     System.out.println(pli);
+  }
+}
+
+// practicing anonymous function
+
+class cali {
+  int fact = 1;
+
+  void newDeck(int p) {
+    for (int i = 1; i <= p; i++) {
+      fact = fact * i;
+    }
+    System.out.println(fact);
+  }
+}
+
+class itsMain {
+  public static void main(String[] args) {
+    // normal object
+    cali ii = new cali();
+    ii.newDeck(3);
+
+    // anonymous object
+    new cali().newDeck(4);
+
+  }
+}
+
+// Real time example for object methods
+
+class account {
+  int custom_id = 0;
+  String name = new String();
+  int amt = 0;
+
+  void insertData(int c, String n, int a) {
+    custom_id = c;
+    name = n;
+    amt = a;
+  }
+
+  void displayDetails() {
+    System.out.println("Custom_id: " + custom_id);
+    System.out.println("Name of Custom : " + name);
+    System.out.println("Amt: " + amt);
+  }
+
+  void withDraw(int w) {
+    if (w < amt) {
+      amt = amt - w;
+      System.out.println("Withdrawn");
+      System.out.println("Avlbe amt :" + amt);
+    } else {
+      System.out.println("Insufficient balance");
+    }
+  }
+
+  void checkBalance() {
+    System.out.println(amt);
+  }
+
+  void depositAmt(int dep) {
+    amt = amt + dep;
+    System.out.println("Updated Amt : " + amt);
+  }
+
+}
+
+class intssMains {
+  public static void main(String[] args) {
+
+    account a1 = new account();
+    a1.insertData(12345, "Aditya", 10000);
+    a1.displayDetails();
+    a1.withDraw(12000);
+    a1.withDraw(1200);
+    a1.checkBalance();
+    a1.depositAmt(1000);
+    a1.displayDetails();
+
+    new account().insertData(1010101, "vedanta", 9000);
+
   }
 }
