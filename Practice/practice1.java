@@ -102,24 +102,24 @@ public class practice1 {
     }
     pop.close();
 
-    //Nested if else statements 
+    // Nested if else statements
     System.out.println("Hi this is nested if else statements ");
     Scanner app = new Scanner(System.in);
     int ap = app.nextInt();
-    if (ap%2==0){
+    if (ap % 2 == 0) {
       System.out.println("This is an even number ");
-        if (ap >10){
+      if (ap > 10) {
         System.out.println("This number is greater than 0");
-        }else{
-          System.out.println("this number is less than 0");
-        }
-    }else{
+      } else {
+        System.out.println("this number is less than 0");
+      }
+    } else {
       System.out.println("This number is odd/ prime number");
-      if (ap ==1){
+      if (ap == 1) {
         System.out.println("This is neither prime nor composite");
       }
     }
     app.close();
-    
+
   }
 }
