@@ -31,5 +31,12 @@ A variable which is created inside the class but outside the method is known as 
 
 
 
+⁡⁣⁣⁢******* Static function and non-static/Instance method:-********
+⁡
+-- Static function we dont need to make a object of the method. 
+-- In stance method we need to make a object and then call/use the method in the class. 
+
+
+
 
 

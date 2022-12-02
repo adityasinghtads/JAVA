@@ -1,4 +1,5 @@
 import javax.sound.sampled.SourceDataLine;
+import javax.swing.event.HyperlinkEvent;
 
 /*
  *Initialize through refrence
@@ -55,3 +56,21 @@ class tcs {
 
 
 
+// ***************************************  
+
+class methodOverloading{
+  void func1(){
+    System.out.println("its in fun1");
+  }
+  void func2(){
+    System.out.println("its in func 2");
+  }
+}
+
+class call{
+  public static void main(String[] args) {
+    methodOverloading hey = new methodOverloading();
+    hey.func1();
+  }
+
+}
