@@ -1,15 +1,5 @@
-import java.lang.invoke.VolatileCallSite;
-import java.net.SocketImpl;
-import java.net.SocketTimeoutException;
-import java.text.BreakIterator;
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.Vector;
-
-import javax.lang.model.element.NestingKind;
-import javax.swing.JList.DropLocation;
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
-import javax.xml.transform.Source;
 
 public class practice5 {
   public static void main(String[] args) {
@@ -75,7 +65,7 @@ public class practice5 {
         System.out.println("The number is above 3");
     }
     scanner.nextLine();
-    // scanner.close();
+    scanner.close();
 
     // Scanner scan = new Scanner(System.in);
     // String str = " Pls enter your string";
@@ -122,6 +112,7 @@ public class practice5 {
 
     // declaring and defining the array in one line
     char me1[] = { 'e', 'o', 'e' };
+    System.out.println(me1);
 
     // arrys of string in java
     String[] arryOfString = { "One", "two", "three" };

@@ -16,6 +16,8 @@ public class practice2 {
     System.out.println("Enter the operation needed to be performed : ");
     String input = scan.nextLine();
 
+    scan.close();
+
     switch (input) {
       case "Sum":
         System.out.printf("The sum of the following is : %d", num1 + num2);

@@ -1,15 +1,10 @@
-import java.lang.reflect.Array;
-import java.security.Key;
 import java.util.Arrays;
-import java.util.Vector;
-
-import javax.swing.JSpinner.NumberEditor;
 
 public class arraysInJava {
   public static void main(String[] args) {
     // declaring a array
     arryOfString();
-    //arrysInJava();
+    // arrysInJava();
   }
 
   static void arrysInJava() {
@@ -113,18 +108,18 @@ public class arraysInJava {
    */
 
   static void arryOfString() {
-    //declaring a arry of string - differnt ways 
-    String[] my1 = new String[]{"Aditya","dhanraj"};
-    String[] my2 = {"DHanraj", "Singh"};
+    // declaring a arry of string - differnt ways
+    String[] my1 = new String[] { "Aditya", "dhanraj" };
+    String[] my2 = { "DHanraj", "Singh" };
     String[] my3 = new String[1];
     my3[0] = "Adi";
 
     System.out.println(my1);
     System.out.println(my2);
-    // Above mentioned wont work as it throes Java out of exception error 
+    // Above mentioned wont work as it throes Java out of exception error
 
-    for (int n = 0; n <my1.length; n++){
+    for (int n = 0; n < my1.length; n++) {
       System.out.println(my1[n]);
     }
-  } 
+  }
 }
