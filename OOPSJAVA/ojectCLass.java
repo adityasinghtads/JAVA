@@ -13,38 +13,7 @@ class oopsJava {
     System.out.println(s1.name);
 
   }
-
   
-  public static void main(String[] args) {
-    oopsJava s1 = new oopsJava();
-    System.out.println(s1.id);
-    System.out.println(s1.name);
-
-  }
-  public static void main(String[] args) {
-    oopsJava s1 = new oopsJava();
-    System.out.println(s1.id);
-    System.out.println(s1.name);
-
-  }
-  public static void main(String[] args) {
-    oopsJava s1 = new oopsJava();
-    System.out.println(s1.id);
-    System.out.println(s1.name);
-
-  }
-  public static void main(String[] args) {
-    oopsJava s1 = new oopsJava();
-    System.out.println(s1.id);
-    System.out.println(s1.name);
-
-  }
-  public static void main(String[] args) {
-    oopsJava s1 = new oopsJava();
-    System.out.println(s1.id);
-    System.out.println(s1.name);
-
-  }
 }
 /*
  * Main outside the class
