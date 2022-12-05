@@ -1,3 +1,15 @@
+package objects;
+
+class cal{
+  void fact(int n){
+    int fact =1;
+    for(int i=1; i<=n; i++){
+      fact = fact * i;
+    }
+    System.out.println("factorial is :"+ fact);
+  }
+}
+
 public class anonymousObject {
   public static void main(String[] args) {
     // calling through refrence 
@@ -9,15 +21,7 @@ public class anonymousObject {
   }
 }
 
-class cal{
-  void fact(int n){
-    int fact =1;
-    for(int i=1; i<=n; i++){
-      fact = fact * i;
-    }
-    System.out.println("factorial is :"+ fact);
-  }
-}
+
 
 // anonymousObject means nameless 
 // - Obejct which has no refrence - used at time of object creation. 

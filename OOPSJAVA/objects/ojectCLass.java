@@ -1,3 +1,4 @@
+package objects;
 
 /*
  * *** Using object and main within the class 
