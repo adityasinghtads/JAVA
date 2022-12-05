@@ -76,3 +76,7 @@ class callingClass{
   }
 }
 // anonymous means nameless
+
+
+
+// Static function/Method main use case is we can call the same without making a object. 
