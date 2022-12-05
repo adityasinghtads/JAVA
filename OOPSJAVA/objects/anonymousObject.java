@@ -1,3 +1,4 @@
+package objects;
 
 class cal{
   void fact(int n){

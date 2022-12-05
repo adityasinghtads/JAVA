@@ -1,5 +1,3 @@
-import javax.sound.sampled.SourceDataLine;
-
 public class practice7 {
   public static void main(String[] args) {
     System.out.println("Hey This is practice 7 ");
@@ -57,26 +55,25 @@ class thisClass {
 
 class HeyYouu {
   void fact(int n) {
-    int fact =1;
-    for(int i=1; i<=n; i++){
-      fact = fact*n;
+    int fact = 1;
+    for (int i = 1; i <= n; i++) {
+      fact = fact * n;
     }
-    System.out.printf("Fact of %d is : %d",n, fact);
+    System.out.printf("Fact of %d is : %d", n, fact);
   }
 }
 
-class callingClass{
+class callingClass {
   public static void main(String[] args) {
-    // Normal calling without annymous 
+    // Normal calling without annymous
     HeyYouu yupee = new HeyYouu();
     yupee.fact(10);
 
-    //Anonymous function 
+    // Anonymous function
     new HeyYouu().fact(12);
   }
 }
 // anonymous means nameless
 
-
-
-// Static function/Method main use case is we can call the same without making a object. 
+// Static function/Method main use case is we can call the same without making a
+// object.
