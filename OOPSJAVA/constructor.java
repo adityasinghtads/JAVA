@@ -89,3 +89,31 @@ class student2 {
  * Constructor Overloading
  * ---
  */
+
+class student3 {
+  int id;
+  String name;
+  int roll;
+
+  student3(int i, int r) {
+    id = i;
+    roll = r;
+  }
+
+  student3(int i, String n, int r) {
+    id = 1;
+    name = n;
+    roll = r;
+  }
+
+  void display() {
+    System.out.println(id + name + roll);
+  }
+
+  public static void main(String[] args) {
+    student3 s3 = new student3(111, 12);
+    student3 s4 = new student3(10, "100", 10);
+    s3.display();
+    s4.display();
+  }
+}
