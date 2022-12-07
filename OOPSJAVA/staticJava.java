@@ -55,7 +55,6 @@ class counter3 {
   }
 }
 
-// we can call static function/method with creating an object.
 
 class staticfunc {
   static void HeyJava() {
@@ -64,10 +63,16 @@ class staticfunc {
 
   public static void main(String[] args) {
     staticfunc.HeyJava();
+    System.out.println("hey");
   }
 }
 
-⁡ ⁣ ⁣ ⁢/*
+
+// we can call static function/method with creating an object.
+
+
+
+⁢/*
         * ) Why is the Java main method static?
         * Ans) It is because the object is not required to call a static method. If it
         * were a non-static method, JVM creates an object first then call main() method

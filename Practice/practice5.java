@@ -186,7 +186,7 @@ public class practice5 {
     }
 
     // while and do while loop.
-
+ 
   }
 
 }
