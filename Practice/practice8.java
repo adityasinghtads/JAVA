@@ -1,5 +1,7 @@
 public class practice8 {
-    
+    public static void main(String[] args) {
+        System.out.println("Hey this is Aditya Singh ");
+    }
 }
 
 class practice{
