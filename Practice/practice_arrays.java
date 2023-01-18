@@ -1,11 +1,13 @@
 import java.lang.reflect.Array;
+import java.net.SocketTimeoutException;
 import java.util.Arrays;
 import java.util.function.DoubleToIntFunction;
 
 public class practice_arrays {
     public static void main(String[] args) {
         System.out.println("Hey this is Arrays is Java. ");
-        arraysInJava();
+        //arraysInJava();
+        wipro();
     }
 
     static void arraysInJava() {
@@ -43,9 +45,21 @@ public class practice_arrays {
         // to compare array
         System.out.println(Arrays.equals(numb, numb1));
         // result for this will be true.
+
+        // Arrays of strings 
+
+        //declaring arrays of strings
+        String[] hey1 = new String[]{"Aditya","Dhanraj"};
+        System.out.println(hey1[1]);
     }
 
     static void wipro() {
-
+        //declaring arrays of strings
+        String[] hey1 = new String[]{"Aditya","Dhanraj"};
+        System.out.println(hey1[1]);
+        System.out.println(hey1); // throws error 
+        for (int n=0 ; n<2; n++){
+            System.out.print(hey1[n]+ " ");
+        }
     }
 }
