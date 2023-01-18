@@ -1,8 +1,4 @@
-import java.util.ArrayList;
 import java.util.Arrays;
-
-import javax.naming.ldap.SortControl;
-import javax.swing.SpinnerDateModel;
 
 public class practiceTillnow {
   public static void main(String[] args) {
@@ -107,3 +103,5 @@ class arrays {
     System.out.println(Arrays.toString(hello));
   }
 }
+
+
