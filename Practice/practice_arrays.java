@@ -1,7 +1,4 @@
-import java.lang.reflect.Array;
-import java.net.SocketTimeoutException;
 import java.util.Arrays;
-import java.util.function.DoubleToIntFunction;
 
 public class practice_arrays {
     public static void main(String[] args) {
