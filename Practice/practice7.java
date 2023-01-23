@@ -78,13 +78,13 @@ class callingClass {
 // Static function/Method main use case is we can call the same without making a
 // object.
 
-public class staticJava {
+class staticInJava {
   int roll = 0;
   int id = 0;
   static String college = "IIT"; // Static variable
 
   // Constructor
-  staticJava(int r, int i) {
+  staticInJava(int r, int i) {
     roll = r;
     id = i;
   }
@@ -94,7 +94,7 @@ public class staticJava {
   }
 
   public static void main(String[] args) {
-    staticJava heyjava = new staticJava(10, 20);
+    //staticJava heyjava = new staticJava(10, 20);
     heyjava.display();
   }
 }
