@@ -94,7 +94,7 @@ class staticInJava {
   }
 
   public static void main(String[] args) {
-    //staticJava heyjava = new staticJava(10, 20);
+    // staticJava heyjava = new staticJava(10, 20);
     heyjava.display();
   }
 }
@@ -156,4 +156,3 @@ class staticfunc {
   * 
   */
 ⁡
-  
