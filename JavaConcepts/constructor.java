@@ -1,6 +1,3 @@
-import java.nio.file.NotLinkException;
-
-import javax.sound.midi.Soundbank;
 
 public class constructor {
 
@@ -31,6 +28,7 @@ class defualtCons {
 
   public static void main(String[] args) {
     defualtCons hi = new defualtCons();
+    System.out.println(hi);
   }
 }
 
@@ -54,6 +52,7 @@ class student {
 
     s1.id = 10;
     s1.name = "Aviraj";
+    System.out.println(s2);
 
   }
 

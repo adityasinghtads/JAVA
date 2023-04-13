@@ -98,7 +98,7 @@ class staticInJava {
     heyjava.display();
   }
 }
-
+  
 /*
  * Counter function
  */
