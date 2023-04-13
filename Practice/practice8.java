@@ -17,6 +17,7 @@ class practice{
          * if we dont define the constructor in that case java makes a default constructor and uses the same 
          * 
          */
+        System.out.println(hey);
         
     }
 }
