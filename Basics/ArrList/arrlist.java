@@ -14,6 +14,12 @@ public class arrlist {
         collectArrList();
     }
 
+    static void ArrListt(){
+        ArrayList<Integer> hey = new ArrayList<Integer>();
+        hey.add(19);
+        System.out.println(hey);
+    }
+
     static void collectArrList(){
         ArrayList<Integer> number = new ArrayList<Integer>();
         number.add(10);

@@ -7,7 +7,12 @@ public class practice5 {
     // userInputs();
     // arrys();
     // loopsJava();
-    love();
+    //love();
+
+    int num = 12;
+    int sum = 0;
+    sum = num +1;
+
   }
 
   static void love() {

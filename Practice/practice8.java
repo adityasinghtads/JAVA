@@ -7,7 +7,6 @@ public class practice8 {
 class practice{
     practice(){
         System.out.println("Hey hello");
-        int hey = 10;
         System.out.println("hey");
     }
     public static void main(String[] args) {
