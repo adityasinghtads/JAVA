@@ -1,9 +1,11 @@
 {
     "java.project.sourcePaths": [
         "src",
+        "Revise/clearing_basics",
         "Practice",
         "Basics",
-        "OOPSJAVA"
+        "Revise/syntax_struct",
+        "Revise"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
